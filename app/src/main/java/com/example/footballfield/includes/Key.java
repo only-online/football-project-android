@@ -1,0 +1,140 @@
+package com.example.footballfield.includes;
+
+public interface Key {
+    public static final String TITLE = "title";
+    public static final String DATE = "date";
+    public static final String IMG = "img";
+    public static final String ID = "id";
+    public static final String LAT = "lat";
+    public static final String LON = "lon";
+    public static final String FILE = "file";
+    public static final String DESC = "desc";
+    public static final String INTRO_TEXT = "intro_text";
+    public static final String PAGE_TITLE = "page_title";
+    public static final String TYPE = "type";
+    public static final String MAP_POINTS_GEO = "map_points_geo";
+    public static final String CODE = "code";
+    public static final String MSISDN = "msisdn";
+    public static final String FINGER_PRINT = "finger_print";
+    // public static final String MSISDN = "0500233256";
+    public static final String IS_PIN_OK = "is_pin_ok";
+    public static final String IS_PSW_OK = "is_password_ok";
+    public static final String TOKEN = "token";
+    public static final String CULTURE_INFO = "culture_info";
+    public static final String USER_BALANCE = "user_balance";
+    public static final String USER_NAME = "user_name";
+    public static final String PIN_CODE = "pin_code";
+    public static final String IS_NEW_VERSION_AVAILABLE = "is_ner_version_available";
+    public static final String IS_LOGGED_IN = "is_logged_in";
+    public static final String CATEGORY_ID = "category_id";
+    public static final String CATEGORY_NAME = "category_name";
+    public static final String FORMAT = "format";
+    public static final String VALIDATOR = "validator";
+    public static final String AMOUNT = "amount";
+    public static final String ACCOUNT = "account";
+    public static final String BILLER_ID = "biller_id";
+    public static final String BILLER_NAME = "biller_name";
+    public static final String BILLER_DESC = "biller_desc";
+    public static final String DESC_FORMAT = "desc_format";
+    public static final String DESC_VALIDATOR = "desc_validator";
+    public static final String PENNY = "penny";
+    public static final String RET_AMOUNT = "ret_amount";
+    public static final String EXTATION_FIELAD = "extantion_field";
+    public static final String RECEIVER_NAME = "receiver_name";
+    public static final String COMMISSION = "commission";
+    public static final String TRN_CODE = "trn_code";
+    public static final String AGENT_CODE = "agent_code";
+    public static final String PAGE_SUBTITLE = "page_subtitle";
+    public static final String HINT = "hint";
+    public static final String BUTTON_TEXT = "button_text";
+    public static final String LANG = "lang";
+    public static final String PIN_TIMEOUT = "pin_time_out";
+    public static final String SERVICE_NAME = "service_name";
+    public static final String TEMPLATE_ID = "template_id";
+    public static final String HIDE_BANNER = "hide_banner";
+    public static final String BANK_ACCOUNT_TYPE = "bank_account_type";
+    public static final String LAST_ACTIVITY = "last_activity";
+    public static final String REDIRECT = "redirect";
+    public static final String NEWS_TOKEN = "news_token";
+    public static final String IS_DATA_LOADED = "is_data_loaded_1";
+    public static final String LAST_NEWS_ID = "last_news_id";
+    public static final String CHECK_NUMBER = "check_number";
+    public static final String DICSOUNT = "dicsount";
+    public static final String REDIRECT_NO_REDIRECT = "redirect_no_redirect";
+    public static final String HIDE_ACCOUNT_TEXT = "hide_account_text";
+    public static final String REDIRECT_WITH_PIN = "redirect_with_pin";
+    public static final String REDIRECT_WITH_NO_PIN = "redirect_no_redirect";
+    public static final String FIXED_ACCOUNT = "fixed_account";
+    public static final String NEWS_TOKEN_UPDATED_AT = "news_token_updated_at";
+    public static final String NEWS_LAST_UPDATED_AT = "news_last_updated_at";
+    public static final String NOTIFICATION_ENABLE = "true";
+
+    public static final String PIN = "pin";
+    public static final String PIN_LOCK = "pin_lock";
+    public static final String OPERATOR_NAME = "op name";
+    public static final String PIN_LOCK_STATE = "pin_state";
+    public static final String PAY_BILLER_STATE = "biller_state";
+
+    public static final String MOBILE_TOPUP = "mobile_topup";
+    public static final String DECIMAL_CHANGE = "decimal" ;
+    public static final String PERIOD = "period";
+    public static final String PURPOSE = "purpose";
+    public static final String REGION = "region";
+    public static final String LOAN_FORM = "loan_form " ;
+    public static final String GENDER = "gender" ;
+    public static final String DOB = "dob";
+    public static final String TELNUM = "telnum";
+    public static final String APPDATE = "appdate";
+    public static final String NAME = "name";
+    public static final String CAT_ID = "cat_id";
+    public static final String REG_DATE = "RegistrationDate";
+    public static final String BANK_ISSUER = "bankIssuer";
+    public static final String STATUS = "Status";
+    public static final String MARITAL_STATUS = "marital status";
+    String CHILDREN_COUNT = "children count";
+    String WAITING_SMS = "waiting_for_sms";
+    String USER_REG_TYPE = "userRegType";
+    String REDIRECT_MONEY_TRANS = "redirect_money_transfer";
+    String TRN_TYPE = "TrnType";
+    String OTP = "OTP";
+    String NOTI_COUNT = "";
+    String FCM_TOKEN = "";
+
+
+    //expres scorinfg info
+
+    public static final String LOAN_GUID = "loan_guid";
+    public static final String LOAN_SUCCESS = "loan_success";
+    public static final String LOAN_STATUS = "loan_status" ;
+    public static final String LOAN_AMOUNT = "loan_amount";
+    public static final String ONE_TIME_FEE = "one_time_fee";
+    public static final String AMOUNT_TO_BE_RECIVED = "amount_to_be_recived";
+    public static final String INTEREST_RATE_AFTER_GRACE_PERIOD = "interest_rate_after_grace_period " ;
+    public static final String INTEREST_RATE_GRACE_PERIOD = "interest_rate_grace_period" ;
+    public static final String GRACE_PERIOD_DAYS = "grace_period_days" ;
+    public static final String OPT_LOAN = "otp_loan";
+    public static final String OPT_LENGTH = "otp_length";
+    public static final String OPT_LIFE_TIME = "otp_life_time";
+    public static final String OPT_ATTEMPTS = "otp_attempts";
+    public static final String AVALIBLE_AMOUNT = "avalible_amount";
+    public static final String OTP_LOAN_RULE = "otp_loan_rule";
+    public static final String OTP_GUID = "otp_guid";
+    public static final String OPT_ATTEMPTS_LIMIT = "otp_attempts_limit";
+    public static final String LOAN_COMM_STATUS = "loan_comm_satatus";
+
+    //LoanList
+    public static final String DISBURSEMENT_DATE = "disbursement_date";
+    public static final String CUSTUMNER_IS_AGREE = "costumer_is_agree";
+    public static final String ACTIVE = "active";
+    public static final String ACCOUNT_NUMBER = "account_number";
+    public static final String CREDIT_PRODUCT_GUID = "credit_product_guid";
+    public static final String PRINCIPAL_OUTSTADING_AMOUNT = "principal_outstanding_amount";
+    public static final String PRINCIPAL_REPAID_AMOUNT = "principal_repaid_amount";
+    public static final String INTEREST_BALANCE = "interest_balance";
+    public static final String IS_OVERDUE = "is_overdue";
+    public static final String SERVICE_TYPE = "service_type";
+    public static final String ACADEMIC_YEAR = "academic_year";
+    public static final String CLASS_TYPE = "class_type";
+
+
+}
